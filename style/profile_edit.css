@@ -1,0 +1,430 @@
+/*글꼴 적용하려면 필요*/
+@font-face{
+    font-family: "KoPubWorldDotumBold";
+    src: url(../assets/font/KoPubWorld\ Dotum\ Bold.ttf);
+}
+
+@font-face{
+    font-family: "KoPubWorldDotumMedium";
+    src: url(../assets/font/KoPubWorld\ Dotum\ Medium.ttf);
+}
+
+@font-face{
+    font-family: "KoPubWorldDotum";
+    src: url(../assets/font/KoPubWorld\ Dotum\ Light.ttf);
+}
+
+body{
+    background-color: rgba(216, 216, 216, 0.17);
+}
+
+a { text-decoration:none;
+    color: rgba(21, 21, 21, 0.87);
+    font-family: KoPubWorldDotum;
+    font-weight: 500; }
+
+li{
+    /*border-bottom: solid 1px rgba(151, 151, 151, 0.35);*/
+    margin-left: -20px;
+    padding-top:5px;
+}
+
+a:visited{ text-decoration:none;
+    color: rgba(21, 21, 21, 0.87);
+    font-weight: 500; }
+    
+.top{
+    width: 1550px;
+    height: 82px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    position:absolute;
+    top:0px;
+    left:0px;
+    box-shadow: none;
+}
+.find{
+    width: 622px;
+    height: 44px;
+    border-radius: 40px;
+    border: solid 1px #e0e0e0;
+    position:absolute;
+    top:19px;
+    left:215px;
+}
+.findbtn{
+    width: 35px;
+    height: 35px;
+    position:absolute;
+    top:27px;
+    left:793px;
+    background-color:#ffffff;
+    border:0;
+}
+.findbtnimg{
+    width: 30px;
+    height:30px;
+}
+.harmony{
+    width: 80px;
+    height: 35px;
+    background-color: #ffffff;
+    position:absolute;
+    top:28px;
+    left:125px;
+    border:0;
+    overflow:hidden;
+}
+.harmony_logo{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+#btn{
+    width: 80px;
+    height: 27px;
+    font-family: KoPubWorldDotum;
+    font-size: 14px;
+    font-weight: 500;
+    color:#c6c6c6;
+    background-color:#ffffff;
+    border:0;
+    outline:0;
+}
+.write_post{
+    position:absolute;
+    top:30px;
+    left:883px;
+}
+.mypage{
+    position:absolute;
+    top:30px;
+    left:976px;
+}
+.bookmark{
+    position:absolute;
+    top:30px;
+    left:1055px;
+}
+.alarm{
+    width: 25px;
+    height: 30px;
+    position:absolute;
+    top:28px;
+    left:1135px;
+    border:0;
+    outline:0;
+    overflow:hidden;
+    background-color:#ffffff;
+}
+.alarm_photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prof_name{
+    width: 80px;
+    height: 17px;
+    font-family:KoPubWorldDotumBold;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    color: #bdbdbd;
+    position:absolute;
+    top:16px;
+    left:1234px;
+}
+.post{ 
+    width: 1009px;
+    height: 550px;
+    border-radius: 5px;
+    border: 2px solid #979797;
+    position:absolute;
+    top:136px;
+    left:215px;
+    background-color:#ffffff;
+}
+.photo{
+    width: 621px;
+    height: 550px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:#000000;
+}
+.profile{
+    width:389px;
+    height:62.5px;
+    position:absolute;
+    top:0px;
+    left:620.5px;
+}
+#prof_photo{
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+    border: solid 0.9px #cacaca;
+    background-color:#ffffff;
+    overflow:hidden;
+}
+.photo1{
+    position: absolute;
+    top:21px;
+    left:1179px;
+}
+
+.pe_edit_pen{
+    width: 15px;
+    height: 19px;
+    background: url('../assets/image/edit_pen.PNG') 100% no-repeat;
+    background-size: 15px 19px;
+    border: none;
+}
+
+.pe_category_title{ /*큰 타이틀*/
+    font-family: KoPubWorldDotumBold;
+    margin-top: 17px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.25px;
+    color: rgba(21, 21, 21, 0.87);
+}
+
+.pe_title{
+    height: 19px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: KoPubWorldDotumBold;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-align: justify;
+    color: rgba(30, 32, 34, 0.51);
+}
+
+.pe_category{ /*각 폼들 중앙정렬*/
+    width: 602px;
+    margin: 0 auto;
+}
+
+.pe_form{
+    margin-top: 34px;
+    margin-left: 15px;
+    border-radius: 3px;
+    border: solid 0.6px #c8c8c8;
+    background-color: #ffffff;
+}
+
+.pe_school_img{
+    width: 62px;
+    height: 62px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 21px;
+    border: solid 0.9px #979797;
+    border-radius: 50%;
+}
+
+.pe_school_name{
+    width: 220px;
+    height: 25px;
+    opacity: 0.53;
+    font-family: KoPubWorldDotum;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.pe_school_info{
+    width: 220px;
+    height: 20px;
+    opacity: 0.35;
+    margin-top: -15px;
+    font-family: KoPubWorldDotum;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.81px;
+    color: #000000;
+}
+
+.pe_input{
+    margin-left: 15px;
+    height: 42px;
+    border: solid 0.7px rgba(151, 151, 151, 0.28);
+    border-radius: 4px;
+}
+
+.pe_output_text{
+    margin-left: 15px;
+    font-family: KoPubWorldDotum;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.88px;
+    text-align: justify;
+    color: rgba(30, 32, 34, 0.51);
+}
+
+.pe_button{
+    width: 74px;
+    height: 39px;
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    font-family: KoPubWorldDotumMedium;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.88px;
+    color: rgba(21, 21, 21, 0.87);
+}
+
+.pe_button_small{
+    width: 47px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    font-family: KoPubWorldDotumMedium;
+    font-size: 10px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.88px;
+    color: rgba(21, 21, 21, 0.87);
+}
+.pe_parent::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+
+.pe_level_inputc{
+    height: 46px;
+    margin-left: -5px;
+    border: solid 1px rgba(151, 151, 151, 0.35);;
+    border-radius: 4px;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+#pe_top {
+    width: 100%;
+    margin-top: 82px;
+    height: 263px;
+    background-color: #d8d8d8;
+    overflow:hidden;
+}
+
+#pe_center {
+    width: 100%;
+    height: 172.5px;
+    position: static;
+}
+
+#pe_profile_img{
+    width: 106px;
+    height: 106px;
+    top: 290px;
+    border-radius: 50%;
+    border: solid 3px #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+input:focus {outline:none;}
+input.pictureButton{
+    width: 64px;
+    height: 62px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate( -50%, -50% );
+
+}
+
+#pe_name{
+    width: 67px;
+    height: 32px;
+    font-family: KoPubWorldDotum;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.31px;
+    color: rgba(21, 21, 21, 0.87);
+    margin-top: 28px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+#pe_slogan{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+#pe_slogan_input{
+    width: 290px;
+    height: 18px;
+    border-radius: 4px;
+    resize: none;
+    border: solid 0.7px rgba(151, 151, 151, 0.28);
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 340%);
+}
+
+#pe_intro_input{
+    width: 548px;
+    height: 72px;
+    border-radius: 4px;
+    resize: none;
+    border: solid 0.7px rgba(151, 151, 151, 0.28);
+    margin-left: 15px;
+}
+
+#pe_select_arrow{
+    width: 322px;
+    background: url('../assets/image/arrow-right-black.png') 100% no-repeat;
+    background-size: 10px 15px;
+}
+
+#dropdownMenu{
+    background-color: white;
+    width: 110px;
+    height: 120px;
+    margin-top: 15px;
+    margin-left: -85px;
+    list-style-type: none;
+    text-decoration: none !important;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
