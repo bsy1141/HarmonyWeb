@@ -31,4 +31,4 @@ HarmonyWeb(UPDATE VERSION)
 <img src="/assets/image/project.png" width="50%" height="30%" alt="project"></img></br>
 <img src="/assets/image/write.png" width="50%" height="30%" alt="write"></img></br>
 
-#### + 반응형 웹페이지가 아니기 때문에 html,css 파일을 보완해서 구현해야 함
+#### + 반응형 웹페이지가 아니기 때문에 html,css 파일을 보완해서 구현해야 함 
